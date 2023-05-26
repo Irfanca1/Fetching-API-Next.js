@@ -13,9 +13,7 @@ export default function Pokemon({ posts }) {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Kembali ke halaman <a href="/">UTAMA</a>
-        </h1>
+        <h1 className={styles.title}>List Pokemon</h1>
 
         <table className="table-auto w-full mt-5">
           <thead>
